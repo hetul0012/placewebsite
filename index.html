@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/style.css">
+    <!--========== Icons ==========-->
+    <link rel="stylesheet" href=" https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+    <!--========== Font Awesome Icons ==========-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.0/css/all.min.css"
+        integrity="sha512-BnbUDfEUfV0Slx6TunuB042k9tuKe3xrD6q4mg5Ed72LTgzDIcLPxg6yI2gcMFRyomt+yJJxE+zJwNmxki6/RA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <title>Photography website</title>
+</head>
+
+<body>
+    <!-- navbar -->
+    <header class="header" id="header">
+       
+    <ul>
+       
+        <li><a href="index.html">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Place</a>
+            <div class="dropdown-content">
+                <a href="#places">New York</a>
+                <a href="#places">Paris </a>
+                <a href="#places">Canada</a>
+            </div>
+        </li>
+        <li><a href="#contact">Contact</a></li>
+    </ul>
+   
+</header>
+
+    <!-- slider -->
+    <div class="slideshow-container">
+        <div class="mySlides fade">
+
+            <img src="img/slider1.jpg" style="width:100%">
+            <div class="text">Nature Photography</div>
+        </div>
+        <div class="mySlides fade">
+
+            <img src="img/slider2.jpg" style="width:100%">
+            <div class="text">Nature Photography</div>
+        </div>
+        <div class="mySlides fade">
+
+            <img src="img/slider3.jpg" style="width:100%">
+            <div class="text">Nature Photography</div>
+        </div>
+        <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
+        <a class="next" onclick="plusSlides(1)">&#10095;</a>
+    </div>
+    <br>
+
+    <!-- About section -->
+
+    <div id="about" class="about">
+        <h2>About Us</h2>
+        <p>Read about us</p>
+
+        <div class="para">
+            <p>
+                We have created a photography website. Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+                eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+                reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat
+                cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim
+                veniam, quis nostrud exercitation
+                ullamco laboris nisi ut aliquip ex ea commodo consequat.
+            </p>
+        </div>
+
+        <!-- <div class="container">
+            <div class="gallery">
+                <h4>Name : Hetul Suthar</h4>
+                <img src="img/cameraman.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <h4>Name : Milin Suthar</h4>
+                <img src="img/cameraman.jpg" alt="">
+            </div>
+            <div class="gallery">
+                <h4>Name : Sunny Suthar</h4>
+                <img src="img/cameraman.jpg" alt="">
+            </div>
+        </div> -->
+
+
+        <div class="img-container">
+            <div class="row1">
+                <img src="img/cameraman.jpg"  alt="">
+                <h5>Name : Hetul Suthar</h5>
+            </div>
+            <div class="row1">
+                <img src="img/cameraman.jpg"  alt="">
+                <h5>Name : Milin Suthar</h5>
+            </div>
+            <div class="row1">
+                <img src="img/cameraman.jpg"  alt="">
+                <h5>Name : Sunny Suthar</h5>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- --------------------------Best Places ---------------------------- -->
+
+    <section class="places" id="places">
+        <h2>BEST PLACES</h2>
+        <p>Remember to book your tickets!</p>
+
+        <div class="img-container">
+            <div class="row1">
+                <img src="img/new york.jpg"  alt="">
+                <h5>New York</h5>
+                <span>Fri 26 Oct 2023</span>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <input type="button" value="Buy Tickets">
+            </div>
+            <div class="row1">
+                <img src="img/paris.jpg"  alt="">
+                <h5>Paris</h5>
+                <span>Fri 26 Oct 2023</span>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <input type="button" value="Buy Tickets">
+            </div>
+            <div class="row1">
+                <img src="img/canada.jpg"  alt="">
+                <h5>Canada</h5>
+                <span>Fri 26 Oct 2023</span>
+                <p>Praesent tincidunt sed tellus ut rutrum sed vitae justo.</p>
+                <a href=""><input type="button" value="Buy Tickets"></a>
+            </div>
+        </div>
+
+    </section>
+
+    <!-- --------------------------Contact ---------------------------- -->
+
+    <section class="contact" id="contact">
+        <h2>CONTACT US</h2>
+        <p>Contact us for more details</p>
+
+        <div class="contact-container">
+            <div class="left-side">
+                <i class="fa-solid fa-location-dot"></i>
+                <p>Ahmedabad,India</p>
+                <i class="fa-solid fa-phone"></i>
+                <p>Phone : +91706544323</p>
+                <i class="fa-solid fa-envelope"></i>
+                <p>Email : ahmedabad@mail.com</p>
+
+            </div>
+
+            <div class="right-side">
+
+                <form action="">
+                    <input type="text" id="name" name="name" value="Name">
+                    <input type="email" id="email" name="email" value="Email"><br><br>
+                    <input type="text" id="message" name="message" value="Message"><br>
+                    <input type="submit" value="SEND">
+                </form>
+
+            </div>
+        </div>
+
+        <div class="map-row">
+            <iframe class="map" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!
+    1d235013.74905295973!2d72.41458777672068!3d23.020473743526235!2m3!1f0!
+    2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x395e848aba5bd449%3A0x4fce
+    dd11614f6516!2sAhmedabad%2C%20Gujarat!5e0!3m2!1sen!2sin!4v168493382208
+    5!5m2!1sen!2sin" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgr
+    ade"></iframe>
+
+        </div>
+
+    </section>
+
+
+    <!-- --------------------------Footer section ---------------------------- -->
+
+    <footer>
+
+
+        <div class="footer-container" id="footer-container">
+            
+            <i class="fa-brands fa-facebook"></i>
+            <i class="fa-brands fa-instagram"></i>
+            <i class="fa-brands fa-whatsapp"></i>
+            <i class="fa-brands fa-github"></i>
+            <i class="fa-brands fa-behance"></i>
+            
+            <p>Powered By <span>  Hetul Suthar </span></p>
+        </div>
+    </footer>
+
+
+    <script src="script/script.js"></script>
+</body>
+
+</html>
